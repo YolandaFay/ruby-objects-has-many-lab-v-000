@@ -1,9 +1,9 @@
 class Author  
   
   attr_accessor :name 
-  attr_reader :posts  
+  attr_reader :post
   
-  @@song_count = 0 
+  @@post_count = 0 
   
   def initialize (name)
     @name = name
