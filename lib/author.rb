@@ -24,8 +24,6 @@ class Author
     post = Song.new(title)
     self.add_post(post)
     post  
-    #@songs << song
-    #song.artist = self 
   end
   
   def self.song_count()
