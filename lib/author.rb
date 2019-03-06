@@ -14,9 +14,9 @@ class Author
     @posts 
   end
   
-  def add_post(posts)
-    @@song_count += 1 
-    @songs << song #has many 
+  def add_post(post)
+    @@post_count += 1 
+    @posts << post #has many 
     song.artist = self  #belongs to
   end
   
