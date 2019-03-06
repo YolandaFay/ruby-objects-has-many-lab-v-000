@@ -14,10 +14,10 @@ class Author
     @posts 
   end
   
-  def add_post(post)
+  def add_post(entry)
     @@post_count += 1 
-    @posts << post #has many 
-    post.artist = self  #belongs to
+    @posts << entry #has many 
+    entry.artist = self  #belongs to
   end
   
   def add_post_by_title(title)
