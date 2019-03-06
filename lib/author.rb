@@ -20,8 +20,8 @@ class Author
     entry.author = self  #belongs to
   end
   
-  def add_post_by_title(title)
-    entry = Post.new(title)
+  def add_post_by_title(name)
+    entry = Post.new(name)
     self.add_post(entry)
     @posts 
   end
