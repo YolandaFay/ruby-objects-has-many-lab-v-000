@@ -3,9 +3,9 @@ class Post
  
   @@all = []
  
-  def initialize(title)
+  def initialize(title, author=nil)
     @title = title
-    @@all << title 
+    @@all << self  
   end
 
   def author_name
