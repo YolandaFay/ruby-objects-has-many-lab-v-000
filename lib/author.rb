@@ -26,7 +26,7 @@ class Author
     post  
   end
   
-  def self.song_count()
+  def self.post_count()
     @@song_count 
   end
 
